@@ -47,7 +47,7 @@ The system leverages:
 ├── main.py               # FastAPI backend
 ├── streamlit_app.py      # Streamlit frontend
 ├── gat_model.pth         # Saved trained model
-├── training_script.py    # (Optional) Training script
+├── training_script.py    # Training script
 ├── Dockerfile
 ├── README.md
 └── requirements.txt
