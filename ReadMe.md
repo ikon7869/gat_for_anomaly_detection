@@ -43,8 +43,14 @@ The system leverages:
 
 ## Project Structure
 
-├── Dockerfile ├── README.md ├── requirements.txt ├── main.py # FastAPI backend ├── streamlit_app.py # Streamlit frontend ├── gat_model.pth # Saved trained model  └── training_script.py 
-
+ 
+├── main.py # FastAPI backend 
+├── streamlit_app.py # Streamlit frontend 
+├── gat_model.pth # Saved trained model  
+└── training_script.py 
+├── Dockerfile
+├── README.md
+├── requirements.txt 
 
 ## Installation and Setup
 
