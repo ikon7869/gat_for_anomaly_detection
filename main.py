@@ -60,7 +60,7 @@ def predict(input: MachineInput):
         original_adj[1, 2] = 1.0
         mse = torch.mean((original_adj - reconstructed_adj) ** 2).item()
     
-    anomaly_threshold = 1.5  
+    anomaly_threshold = 0.75
     is_anomaly = mse > anomaly_threshold
     
     return {"reconstruction_error": mse, "anomaly": is_anomaly}
