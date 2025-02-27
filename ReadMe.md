@@ -67,7 +67,7 @@ The system leverages:
 1. **Clone the Repository:**
 
    ```bash
-   git clone <your-repository-url>
+   git clone https://github.com/ikon7869/gat_for_anomaly_detection.git
    cd <your-repository-directory>
 
 
